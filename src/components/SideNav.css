@@ -1,0 +1,43 @@
+.side-nav {
+	position: sticky;
+	top: 0;
+	left: 0;
+}
+
+.side-nav__content {
+	display: flex;
+	height: 100%;
+	background-color: var(--primary-color);
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.side-nav__content-logo img {
+	width: calc(3vh + 3vw);
+	object-fit: cover;
+}
+
+.side-nav__content--social {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.side-nav__content--social__icon {
+	color: white;
+	font-size: calc(1rem + 0.6667vw);
+	margin-bottom: calc(2rem + 0.667vw);
+	transition: color 0.35s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+/* .side-nav__content--social__icon {
+	padding-bottom: calc(1rem + 0.67vw);
+	color: red;
+	font-size: calc(1rem + 0.6667vw);
+} */
+
+.myReact-icons2:hover,
+.myReact-icons2:active {
+	color: var(--secondary-color);
+}

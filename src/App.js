@@ -1,11 +1,10 @@
+import SideNav from './components/SideNav';
 import './App.css';
 function App() {
 	return (
 		<div className="overlay">
-			<div className="first">
-				<p>Hello</p>
-			</div>
-			<div className="second"></div>
+			<div className="first"></div>
+			<SideNav />
 		</div>
 	);
 }
