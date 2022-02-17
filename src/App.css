@@ -5,3 +5,13 @@
 	width: 100vw;
 	display: flex;
 }
+
+/* ***************************** For large screens *********************************** */
+
+@media screen and (min-width: 1600px) {
+	.overlay {
+		width: 1750px;
+		margin: 0 auto;
+		/* background-color: var(--tertiary-color); */
+	}
+}
