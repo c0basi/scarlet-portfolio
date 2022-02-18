@@ -85,6 +85,7 @@ ul.header__main-nav--links li a:active::after {
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
+		align-items: flex-start;
 		top: calc(3vw + 3vh);
 		right: 0;
 		position: fixed;
@@ -95,7 +96,7 @@ ul.header__main-nav--links li a:active::after {
 	}
 
 	.mobile-navigation .header__main-nav--links li {
-		margin-left: 6vw;
 		margin-bottom: 4vh;
+		margin-left: 6vw;
 	}
 }

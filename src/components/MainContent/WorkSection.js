@@ -1,11 +1,11 @@
 import './WorkSection.css';
 
 import design from '../../img/portfolio-design-01-1.jpg';
-import creative from '../../img/portfolio-design-01-1.jpg';
-import creative2 from '../../img/portfolio-design-01-1.jpg';
-import branding from '../../img/portfolio-design-01-1.jpg';
-import branding2 from '../../img/portfolio-design-01-1.jpg';
-import print from '../../img/portfolio-design-01-1.jpg';
+import creative from '../../img/portfolio-creative-01-1.jpg';
+import creative2 from '../../img/portfolio-creative-02-1.jpg';
+import branding from '../../img/portfolio-branding-02-1.jpg';
+import branding2 from '../../img/portfolio-branding-01-1.jpg';
+import print from '../../img/portfolio-print-02-1.jpg';
 
 const WorkSection = () => {
 	return (
