@@ -2,6 +2,7 @@ import Header from './NavBar/Header';
 import ShowCase from './Showcase';
 import WorkSection from './WorkSection';
 import AboutMe from './AboutMe';
+import Services from './Services';
 import './MainContent.css';
 const MainContent = () => {
 	return (
@@ -10,6 +11,7 @@ const MainContent = () => {
 			<ShowCase />
 			<WorkSection />
 			<AboutMe />
+			<Services />
 		</main>
 	);
 };

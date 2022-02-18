@@ -1,0 +1,36 @@
+.services {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: var(--primary-color);
+	justify-content: center;
+	align-items: center;
+	padding: 6rem 2rem 2rem;
+}
+
+.service {
+	background-color: var(--secondary-color);
+	flex-basis: 40rem;
+	flex-grow: 1;
+	padding: 3rem 2rem;
+	margin: 1rem 2.5rem;
+}
+
+.services--title,
+.services-icons {
+	margin-bottom: 2rem;
+	font-size: 3rem;
+}
+
+.services-icons {
+	color: white;
+}
+
+.services--title {
+	text-transform: uppercase;
+}
+
+.services--para {
+	font-family: 'Indie family', cursive;
+	color: white;
+	font-size: 2rem;
+}
