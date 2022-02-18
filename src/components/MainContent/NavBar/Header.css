@@ -71,7 +71,6 @@ ul.header__main-nav--links li a:active::after {
 		display: block;
 		background-color: var(--secondary-color);
 		align-items: center;
-		transition: all 0.3s ease-out;
 	}
 
 	.mobile-navigation .hamburger {
@@ -86,13 +85,15 @@ ul.header__main-nav--links li a:active::after {
 		flex-direction: column;
 		justify-content: flex-start;
 		align-items: flex-start;
-		top: calc(3vw + 3vh);
+		top: 0;
 		right: 0;
 		position: fixed;
 		background-color: var(--secondary-color);
 		width: 40%;
 		z-index: 4;
-		padding-top: 4rem;
+		height: 100vh;
+		/* padding-top: 5rem; */
+		padding-top: calc(3vw + 3vh + 4rem);
 	}
 
 	.mobile-navigation .header__main-nav--links li {
