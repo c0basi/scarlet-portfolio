@@ -1,14 +1,14 @@
 .side-nav {
-	position: sticky;
+	position: fixed;
 	top: 0;
-	left: 0;
 	height: 100vh;
+	background-color: var(--primary-color);
+	z-index: 99;
 }
 
 .side-nav__content {
 	display: flex;
 	height: 100%;
-	background-color: var(--primary-color);
 	flex-direction: column;
 	justify-content: space-between;
 }
