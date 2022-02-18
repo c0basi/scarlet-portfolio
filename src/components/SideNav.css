@@ -2,6 +2,7 @@
 	position: sticky;
 	top: 0;
 	left: 0;
+	height: 100vh;
 }
 
 .side-nav__content {

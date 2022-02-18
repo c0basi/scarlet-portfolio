@@ -8,7 +8,7 @@ const MobileNavigation = () => {
 	const hanburgerIcon = (
 		<CgMenuRound
 			className="hamburger"
-			size="4rem"
+			size="3.5rem"
 			color="white"
 			onClick={() => setOpen((prev) => !prev)}
 		/>
@@ -17,7 +17,7 @@ const MobileNavigation = () => {
 	const closeIcon = (
 		<CgCloseO
 			className="hamburger"
-			size="4rem"
+			size="3.5rem"
 			color="white"
 			onClick={() => setOpen((prev) => !prev)}
 		/>

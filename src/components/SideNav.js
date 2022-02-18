@@ -7,6 +7,8 @@ import { FaInstagram } from 'react-icons/fa';
 import { FaDribbble } from 'react-icons/fa';
 import { FaPinterest } from 'react-icons/fa';
 
+import logo1 from '../img/logo-01.jpg';
+
 import './SideNav.css';
 const SideNav = () => {
 	// const styles = {
@@ -25,7 +27,7 @@ const SideNav = () => {
 			<aside className="side-nav">
 				<div className="side-nav__content">
 					<div className="side-nav__content-logo">
-						<img src="img/logo-01.jpg" alt="logo"></img>
+						<img src={logo1} alt="logo"></img>
 					</div>
 					<ul className="side-nav__content--social">
 						<a href="#">

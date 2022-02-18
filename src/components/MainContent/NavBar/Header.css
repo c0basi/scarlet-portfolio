@@ -71,11 +71,12 @@ ul.header__main-nav--links li a:active::after {
 		display: block;
 		background-color: var(--secondary-color);
 		align-items: center;
+		transition: all 0.3s ease-out;
 	}
 
 	.mobile-navigation .hamburger {
 		position: fixed;
-		top: 2rem;
+		top: 0.4rem;
 		right: 5%;
 		cursor: pointer;
 		z-index: 5;
