@@ -2,9 +2,11 @@ header.header {
 	background-color: var(--secondary-color);
 	height: calc(3vh + 3vw);
 	width: 100%;
+	z-index: 2;
 }
 
-nav.header__main-nav {
+nav.header__main-nav,
+nav.mobile-navigation {
 	height: 100%;
 }
 
@@ -52,4 +54,47 @@ ul.header__main-nav--links li a:hover::after,
 ul.header__main-nav--links li a:active::before,
 ul.header__main-nav--links li a:active::after {
 	transform: scaleX(1);
+}
+
+.mobile-navigation {
+	display: none;
+}
+
+/* ****************************************** Media query for small screens ******************************************************** */
+
+@media screen and (max-width: 610px) {
+	.header__main-nav {
+		display: none;
+	}
+
+	.mobile-navigation {
+		display: block;
+		background-color: var(--secondary-color);
+		align-items: center;
+	}
+
+	.mobile-navigation .hamburger {
+		position: fixed;
+		top: 2rem;
+		right: 5%;
+		cursor: pointer;
+		z-index: 5;
+	}
+	.mobile-navigation .header__main-nav--links {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		top: calc(3vw + 3vh);
+		right: 0;
+		position: fixed;
+		background-color: var(--secondary-color);
+		width: 40%;
+		z-index: 4;
+		padding-top: 4rem;
+	}
+
+	.mobile-navigation .header__main-nav--links li {
+		margin-left: 6vw;
+		margin-bottom: 4vh;
+	}
 }

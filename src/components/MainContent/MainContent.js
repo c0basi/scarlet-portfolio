@@ -1,4 +1,4 @@
-import Header from './Header';
+import Header from './NavBar/Header';
 import './MainContent.css';
 const MainContent = () => {
 	return (
