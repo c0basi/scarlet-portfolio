@@ -1,13 +1,17 @@
 .side-nav {
-	position: relative;
+	position: sticky;
+	position: -webkit-sticky;
 	top: 0;
 	height: 100vh;
+	align-self: flex-start;
+
 	/* background-color: var(--primary-color); */
 	z-index: 99;
 }
 
 .side-nav__content {
 	display: flex;
+
 	height: 100%;
 	flex-direction: column;
 	justify-content: space-between;
