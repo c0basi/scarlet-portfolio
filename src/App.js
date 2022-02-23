@@ -1,12 +1,17 @@
 import SideNav from './components/SideNav';
 import MainContent from './components/MainContent/MainContent';
+import { Fragment } from 'react';
 import './App.css';
 function App() {
 	return (
-		<div className="overlay">
+		<Fragment>
 			<SideNav />
 			<MainContent />
-		</div>
+		</Fragment>
+		// <div className="overlay">
+		// 	<SideNav />
+		// 	<MainContent />
+		// </div>
 	);
 }
 
